@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.cjj.SwipeBackLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                         android:layout_width="match_parent"
+                         android:id="@+id/sb"
+                         android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#2c2c2c">
+        <ImageView
+            android:id="@+id/iv1"
+            android:src="@drawable/cjj"
+            android:layout_marginTop="100dp"
+            android:layout_width="70dp"
+            android:layout_height="30dp"/>
+
+        <TextView
+            android:textSize="20sp"
+            android:id="@+id/tv"
+            android:text="BACK"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:textColor="#ffffff"
+            android:layout_below="@+id/iv1"
+            android:gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/iv2"
+            android:layout_below="@+id/tv"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/cjj"
+            android:layout_width="70dp"
+            android:layout_height="30dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:background="@drawable/jj2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </RelativeLayout>
+
+</com.cjj.SwipeBackLayout>

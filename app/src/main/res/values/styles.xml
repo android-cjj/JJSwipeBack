@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+    <!-- Base application theme. -->
+    <style name="BaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#202020</item>
+        <item name="colorPrimaryDark">#202020</item>
+        <item name="colorAccent">#795548</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@color/window_background</item>
+    </style>
+    <style name="CJJTheme" parent="BaseTheme">
+    </style>
+
+</resources>

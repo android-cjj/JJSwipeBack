@@ -18,7 +18,7 @@ activity finish like 简书
 
 看完我的小说的朋友，都打赏了，还给了无鼓励的话语
 
-![https://github.com/android-cjj/JJSwipeBack/blob/master/gif/j1.png]
+![](https://github.com/android-cjj/JJSwipeBack/blob/master/gif/j1.png)
 
 你看，都被我写的小说感染了，情绪有点激动，理解，写的实在太好了，我自己都被自己的文采折服......
 

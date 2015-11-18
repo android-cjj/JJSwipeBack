@@ -35,6 +35,16 @@ activity finish like 简书
 你没看错，这些读者都快入迷了，是什么小说可以如此的影响一个人呢？是我写的小说就可以，还不去看，小心我f**k 你
 
 
+我们都是一群豆逼的人儿，我们的群号是：GitHub小伙伴交流群 477826523，我们的成员有：
+
+![](https://github.com/android-cjj/JJSwipeBack/blob/master/gif/b.png)
+
+![](https://github.com/android-cjj/JJSwipeBack/blob/master/gif/a.png)
+
+你想加入我们吗，首先github有至少7个关注者并且开源库有7颗星星的，你丫还要是个土豪，可以发红包（又拿别的群的图片来坑蒙拐骗了，啊哈哈哈）
+
+以上都是扯淡，如果你看了，请自己洗脑删除。。。。啊哈哈哈。。。。。。。。。。。。。。。。。。。。。。。。
+
 
 
 

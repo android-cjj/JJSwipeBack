@@ -14,7 +14,7 @@ import android.widget.FrameLayout;
 import android.widget.RelativeLayout;
 
 /**
- * Created by cjj on 2015/10/30.
+ * Created by cjj on 2015/11/17.
  */
 public class SwipeBackLayout extends FrameLayout {
 
@@ -199,6 +199,8 @@ public class SwipeBackLayout extends FrameLayout {
         if (mViewDragHelper.smoothSlideViewTo(mContentFrameLayout, mSwipeWidth, 0)) {
             ViewCompat.postInvalidateOnAnimation(this);
         }
+        if (null != mSwipeBackListener) mSwipeBackListener.onOpen();
+
     }
 
 
@@ -289,19 +291,30 @@ public class SwipeBackLayout extends FrameLayout {
         public void onViewReleased(View releasedChild, float xvel, float yvel) {
             Log.i(Tag,"onViewReleased");
             if (xvel > 0) {
-                open();
-                if(null!=mSwipeBackListener) mSwipeBackListener.onOpen();
+                openEvent();
             } else if (xvel < 0) {
                 close();
             } else if (releasedChild == mContentFrameLayout && mSwipeLeft > mSwipeWidth * 0.4) {
-                open();
-                if(null!=mSwipeBackListener) mSwipeBackListener.onOpen();
+                openEvent();
             } else if (releasedChild == mBehindFrameLayout && mSwipeLeft > mSwipeWidth * 0.6) {
-                open();
-                if(null!=mSwipeBackListener) mSwipeBackListener.onOpen();
+                openEvent();
             } else {
                 close();
             }
+        }
+
+        public void openEvent()
+        {
+            if (mViewDragHelper.smoothSlideViewTo(mContentFrameLayout, mSwipeWidth, 0)) {
+                ViewCompat.postInvalidateOnAnimation(SwipeBackLayout.this);
+            }
+
+            SwipeBackLayout.this.postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    if (null != mSwipeBackListener) mSwipeBackListener.onOpen();
+                }
+            }, 200);
         }
 
         @Override

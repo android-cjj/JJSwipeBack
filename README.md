@@ -30,7 +30,7 @@ activity finish like 简书
 
 ![](https://github.com/android-cjj/JJSwipeBack/blob/master/gif/j5.png)
 
-感谢下阿[阿布](https://github.com/nimengbo)、[涛哥](https://github.com/liangzhitao)、Vear
+感谢下阿[阿布](https://github.com/nimengbo)、[涛哥](https://github.com/liangzhitao)、[Veaer](https://github.com/Veaer)
 
 你没看错，这些读者都快入迷了，是什么小说可以如此的影响一个人呢？是我写的小说就可以，还不去看，小心我f**k 你
 
